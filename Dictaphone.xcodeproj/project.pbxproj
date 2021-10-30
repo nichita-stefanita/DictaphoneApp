@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0981C18AE27B66C355683F01 /* VoiceMemosModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6458B91C63FB84A04E0FBD /* VoiceMemosModuleInput.swift */; };
+		0AAF215871EBF9563996A889 /* VoiceMemosRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE1CF7568EA97B5F0684B8 /* VoiceMemosRouterInput.swift */; };
 		191B940C272D841600B8C80C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191B940B272D841600B8C80C /* AppDelegate.swift */; };
 		191B940E272D841600B8C80C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191B940D272D841600B8C80C /* SceneDelegate.swift */; };
 		191B9410272D841600B8C80C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191B940F272D841600B8C80C /* ViewController.swift */; };
 		191B9413272D841600B8C80C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191B9411272D841600B8C80C /* Main.storyboard */; };
 		191B9415272D841800B8C80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191B9414272D841800B8C80C /* Assets.xcassets */; };
 		191B9418272D841800B8C80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191B9416272D841800B8C80C /* LaunchScreen.storyboard */; };
+		2C50E3EBC64B9CB788FE89BE /* VoiceMemosConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F5F6F616AC80A7001DA09 /* VoiceMemosConfigurator.swift */; };
+		4836A373E91F2A54CA04FC11 /* VoiceMemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C715E146B84180B746AFD8A /* VoiceMemosViewController.swift */; };
+		4D84B7C1B3727EC402ECC98A /* VoiceMemosInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6639584921743C16311AD8 /* VoiceMemosInteractorInput.swift */; };
+		6E829AE0CA837C71447AC4A4 /* VoiceMemosInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD5B0F9D6159329F2C00A82 /* VoiceMemosInteractorOutput.swift */; };
+		77FCA547A50E66E7F3E0C998 /* VoiceMemosViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D3929BBA6D285472AE6D9E /* VoiceMemosViewController.storyboard */; };
+		9FF6E12E2CFE0CF5467A9C14 /* VoiceMemosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E521355A2B6843B8E2BF297A /* VoiceMemosPresenter.swift */; };
+		A04B5D70DECBEA5D481754CB /* VoiceMemosViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD73B5787E8A82A7F48F2AC7 /* VoiceMemosViewInput.swift */; };
+		ADD1B892A7C3DE477EA374A1 /* VoiceMemosInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6533688372EB7A1E257029B /* VoiceMemosInteractor.swift */; };
+		CFAD89E2745581FEE189E6FD /* VoiceMemosRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08650EC3C071CBF5DE76AB92 /* VoiceMemosRouter.swift */; };
+		DD34FDC3C1397F592857006B /* Pods_Dictaphone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35631017B5AA7128B173003 /* Pods_Dictaphone.framework */; };
+		E91E4727E47A1EDB2694A995 /* VoiceMemosViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A811C39F5FE5B19CE8796C04 /* VoiceMemosViewOutput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08650EC3C071CBF5DE76AB92 /* VoiceMemosRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceMemosRouter.swift; sourceTree = "<group>"; };
+		0B6458B91C63FB84A04E0FBD /* VoiceMemosModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceMemosModuleInput.swift; sourceTree = "<group>"; };
 		191B9408272D841600B8C80C /* Dictaphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dictaphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		191B940B272D841600B8C80C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		191B940D272D841600B8C80C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,19 @@
 		191B9414272D841800B8C80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		191B9417272D841800B8C80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		191B9419272D841800B8C80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24322144F21926545FA7A681 /* Pods-Dictaphone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dictaphone.debug.xcconfig"; path = "Target Support Files/Pods-Dictaphone/Pods-Dictaphone.debug.xcconfig"; sourceTree = "<group>"; };
+		32D3929BBA6D285472AE6D9E /* VoiceMemosViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = VoiceMemosViewController.storyboard; sourceTree = "<group>"; };
+		654F5F6F616AC80A7001DA09 /* VoiceMemosConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceMemosConfigurator.swift; sourceTree = "<group>"; };
+		8C715E146B84180B746AFD8A /* VoiceMemosViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceMemosViewController.swift; sourceTree = "<group>"; };
+		9C6639584921743C16311AD8 /* VoiceMemosInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceMemosInteractorInput.swift; sourceTree = "<group>"; };
+		A6533688372EB7A1E257029B /* VoiceMemosInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceMemosInteractor.swift; sourceTree = "<group>"; };
+		A811C39F5FE5B19CE8796C04 /* VoiceMemosViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceMemosViewOutput.swift; sourceTree = "<group>"; };
+		AD73B5787E8A82A7F48F2AC7 /* VoiceMemosViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceMemosViewInput.swift; sourceTree = "<group>"; };
+		C35631017B5AA7128B173003 /* Pods_Dictaphone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dictaphone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5009F92032AA285B2F400D7 /* Pods-Dictaphone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dictaphone.release.xcconfig"; path = "Target Support Files/Pods-Dictaphone/Pods-Dictaphone.release.xcconfig"; sourceTree = "<group>"; };
+		E521355A2B6843B8E2BF297A /* VoiceMemosPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceMemosPresenter.swift; sourceTree = "<group>"; };
+		EAD5B0F9D6159329F2C00A82 /* VoiceMemosInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceMemosInteractorOutput.swift; sourceTree = "<group>"; };
+		FEAE1CF7568EA97B5F0684B8 /* VoiceMemosRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceMemosRouterInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD34FDC3C1397F592857006B /* Pods_Dictaphone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AA550E6BD3D2125FA79ECE4 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FEAE1CF7568EA97B5F0684B8 /* VoiceMemosRouterInput.swift */,
+				08650EC3C071CBF5DE76AB92 /* VoiceMemosRouter.swift */,
+			);
+			name = Router;
+			path = Router;
+			sourceTree = "<group>";
+		};
 		191B93FF272D841600B8C80C = {
 			isa = PBXGroup;
 			children = (
 				191B940A272D841600B8C80C /* Dictaphone */,
 				191B9409272D841600B8C80C /* Products */,
+				3B646BCC8FDD34EC178BD86C /* Pods */,
+				4E0B142B1F642F61CC7D5815 /* Frameworks */,
+				B49E2055E41969AA92ECB202 /* \Modules */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +109,88 @@
 			path = Dictaphone;
 			sourceTree = "<group>";
 		};
+		29ECF561165A4D15292C9943 /* VoiceMemos */ = {
+			isa = PBXGroup;
+			children = (
+				32D3929BBA6D285472AE6D9E /* VoiceMemosViewController.storyboard */,
+				BDC191021ACEF50DAD0EFB25 /* View */,
+				613881460A5207151ED04695 /* Presenter */,
+				FEFAC3864A9912708EB78D0E /* Interactor */,
+				0AA550E6BD3D2125FA79ECE4 /* Router */,
+				64FE3F70A9359FBA492EBA9A /* Configurator */,
+			);
+			name = VoiceMemos;
+			path = VoiceMemos;
+			sourceTree = "<group>";
+		};
+		3B646BCC8FDD34EC178BD86C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24322144F21926545FA7A681 /* Pods-Dictaphone.debug.xcconfig */,
+				D5009F92032AA285B2F400D7 /* Pods-Dictaphone.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4E0B142B1F642F61CC7D5815 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C35631017B5AA7128B173003 /* Pods_Dictaphone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		613881460A5207151ED04695 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0B6458B91C63FB84A04E0FBD /* VoiceMemosModuleInput.swift */,
+				E521355A2B6843B8E2BF297A /* VoiceMemosPresenter.swift */,
+			);
+			name = Presenter;
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		64FE3F70A9359FBA492EBA9A /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				654F5F6F616AC80A7001DA09 /* VoiceMemosConfigurator.swift */,
+			);
+			name = Configurator;
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		B49E2055E41969AA92ECB202 /* \Modules */ = {
+			isa = PBXGroup;
+			children = (
+				29ECF561165A4D15292C9943 /* VoiceMemos */,
+			);
+			name = "\\Modules";
+			path = "\\Modules";
+			sourceTree = "<group>";
+		};
+		BDC191021ACEF50DAD0EFB25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD73B5787E8A82A7F48F2AC7 /* VoiceMemosViewInput.swift */,
+				A811C39F5FE5B19CE8796C04 /* VoiceMemosViewOutput.swift */,
+				8C715E146B84180B746AFD8A /* VoiceMemosViewController.swift */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		FEFAC3864A9912708EB78D0E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				9C6639584921743C16311AD8 /* VoiceMemosInteractorInput.swift */,
+				EAD5B0F9D6159329F2C00A82 /* VoiceMemosInteractorOutput.swift */,
+				A6533688372EB7A1E257029B /* VoiceMemosInteractor.swift */,
+			);
+			name = Interactor;
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 191B941C272D841800B8C80C /* Build configuration list for PBXNativeTarget "Dictaphone" */;
 			buildPhases = (
+				B3D2DB479127D2415E5CF812 /* [CP] Check Pods Manifest.lock */,
 				191B9404272D841600B8C80C /* Sources */,
 				191B9405272D841600B8C80C /* Frameworks */,
 				191B9406272D841600B8C80C /* Resources */,
@@ -128,10 +253,36 @@
 				191B9418272D841800B8C80C /* LaunchScreen.storyboard in Resources */,
 				191B9415272D841800B8C80C /* Assets.xcassets in Resources */,
 				191B9413272D841600B8C80C /* Main.storyboard in Resources */,
+				77FCA547A50E66E7F3E0C998 /* VoiceMemosViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3D2DB479127D2415E5CF812 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dictaphone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		191B9404272D841600B8C80C /* Sources */ = {
@@ -141,6 +292,17 @@
 				191B9410272D841600B8C80C /* ViewController.swift in Sources */,
 				191B940C272D841600B8C80C /* AppDelegate.swift in Sources */,
 				191B940E272D841600B8C80C /* SceneDelegate.swift in Sources */,
+				A04B5D70DECBEA5D481754CB /* VoiceMemosViewInput.swift in Sources */,
+				E91E4727E47A1EDB2694A995 /* VoiceMemosViewOutput.swift in Sources */,
+				4836A373E91F2A54CA04FC11 /* VoiceMemosViewController.swift in Sources */,
+				0981C18AE27B66C355683F01 /* VoiceMemosModuleInput.swift in Sources */,
+				9FF6E12E2CFE0CF5467A9C14 /* VoiceMemosPresenter.swift in Sources */,
+				4D84B7C1B3727EC402ECC98A /* VoiceMemosInteractorInput.swift in Sources */,
+				6E829AE0CA837C71447AC4A4 /* VoiceMemosInteractorOutput.swift in Sources */,
+				ADD1B892A7C3DE477EA374A1 /* VoiceMemosInteractor.swift in Sources */,
+				0AAF215871EBF9563996A889 /* VoiceMemosRouterInput.swift in Sources */,
+				CFAD89E2745581FEE189E6FD /* VoiceMemosRouter.swift in Sources */,
+				2C50E3EBC64B9CB788FE89BE /* VoiceMemosConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +446,7 @@
 		};
 		191B941D272D841800B8C80C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24322144F21926545FA7A681 /* Pods-Dictaphone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +475,7 @@
 		};
 		191B941E272D841800B8C80C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5009F92032AA285B2F400D7 /* Pods-Dictaphone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
