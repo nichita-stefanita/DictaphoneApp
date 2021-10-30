@@ -10,10 +10,10 @@ xcodeproj_path: Dictaphone.xcodeproj
 project_target: Dictaphone
 
 # The file path for new modules
-project_file_path: \Modules
+project_file_path: Dictaphone/Modules
 
 # The Xcode group path to new modules
-project_group_path: \Modules
+project_group_path: Dictaphone/Modules
 
 ### Dependencies settings section
 podfile_path: Podfile

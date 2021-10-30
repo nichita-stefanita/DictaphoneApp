@@ -72,7 +72,6 @@
 				FEAE1CF7568EA97B5F0684B8 /* VoiceMemosRouterInput.swift */,
 				08650EC3C071CBF5DE76AB92 /* VoiceMemosRouter.swift */,
 			);
-			name = Router;
 			path = Router;
 			sourceTree = "<group>";
 		};
@@ -83,7 +82,6 @@
 				191B9409272D841600B8C80C /* Products */,
 				3B646BCC8FDD34EC178BD86C /* Pods */,
 				4E0B142B1F642F61CC7D5815 /* Frameworks */,
-				B49E2055E41969AA92ECB202 /* \Modules */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +96,7 @@
 		191B940A272D841600B8C80C /* Dictaphone */ = {
 			isa = PBXGroup;
 			children = (
+				B49E2055E41969AA92ECB202 /* Modules */,
 				191B940B272D841600B8C80C /* AppDelegate.swift */,
 				191B940D272D841600B8C80C /* SceneDelegate.swift */,
 				191B940F272D841600B8C80C /* ViewController.swift */,
@@ -119,7 +118,6 @@
 				0AA550E6BD3D2125FA79ECE4 /* Router */,
 				64FE3F70A9359FBA492EBA9A /* Configurator */,
 			);
-			name = VoiceMemos;
 			path = VoiceMemos;
 			sourceTree = "<group>";
 		};
@@ -129,7 +127,6 @@
 				24322144F21926545FA7A681 /* Pods-Dictaphone.debug.xcconfig */,
 				D5009F92032AA285B2F400D7 /* Pods-Dictaphone.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -147,7 +144,6 @@
 				0B6458B91C63FB84A04E0FBD /* VoiceMemosModuleInput.swift */,
 				E521355A2B6843B8E2BF297A /* VoiceMemosPresenter.swift */,
 			);
-			name = Presenter;
 			path = Presenter;
 			sourceTree = "<group>";
 		};
@@ -156,17 +152,15 @@
 			children = (
 				654F5F6F616AC80A7001DA09 /* VoiceMemosConfigurator.swift */,
 			);
-			name = Configurator;
 			path = Configurator;
 			sourceTree = "<group>";
 		};
-		B49E2055E41969AA92ECB202 /* \Modules */ = {
+		B49E2055E41969AA92ECB202 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
 				29ECF561165A4D15292C9943 /* VoiceMemos */,
 			);
-			name = "\\Modules";
-			path = "\\Modules";
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		BDC191021ACEF50DAD0EFB25 /* View */ = {
@@ -176,7 +170,6 @@
 				A811C39F5FE5B19CE8796C04 /* VoiceMemosViewOutput.swift */,
 				8C715E146B84180B746AFD8A /* VoiceMemosViewController.swift */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -187,7 +180,6 @@
 				EAD5B0F9D6159329F2C00A82 /* VoiceMemosInteractorOutput.swift */,
 				A6533688372EB7A1E257029B /* VoiceMemosInteractor.swift */,
 			);
-			name = Interactor;
 			path = Interactor;
 			sourceTree = "<group>";
 		};
