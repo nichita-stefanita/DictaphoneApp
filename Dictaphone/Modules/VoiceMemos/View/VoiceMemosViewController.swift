@@ -5,6 +5,8 @@ final class VoiceMemosViewController: UIViewController, StoryboardInstantiable {
     var output: VoiceMemosViewOutput!
     var moduleInput: VoiceMemosModuleInput!
 
+    @IBOutlet weak var tableView: UITableView!
+    
     // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
