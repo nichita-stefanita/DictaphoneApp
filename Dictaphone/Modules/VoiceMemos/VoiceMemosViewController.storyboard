@@ -18,7 +18,38 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G1p-2a-VYn">
                                 <rect key="frame" x="0.0" y="500.5" width="375" height="166.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tP7-by-EmM">
+                                        <rect key="frame" x="167.5" y="30" width="40.5" height="106.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZdV-zD-A8H">
+                                                <rect key="frame" x="0.0" y="0.0" width="40.5" height="106.5"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="mic.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="playStopButtonAction:" destination="245607000" eventType="touchUpInside" id="cre-ZH-XEg"/>
+                                                </connections>
+                                            </button>
+                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9r-FN-W9L">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="106.5"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="pause.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="pauseButtonAction:" destination="245607000" eventType="touchUpInside" id="KO9-uU-aCE"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="tP7-by-EmM" firstAttribute="centerY" secondItem="G1p-2a-VYn" secondAttribute="centerY" id="N1q-zb-aqf"/>
+                                    <constraint firstItem="tP7-by-EmM" firstAttribute="centerX" secondItem="G1p-2a-VYn" secondAttribute="centerX" id="Osl-u2-sBw"/>
+                                    <constraint firstAttribute="bottom" secondItem="tP7-by-EmM" secondAttribute="bottom" constant="30" id="XEi-1c-1mH"/>
+                                    <constraint firstItem="tP7-by-EmM" firstAttribute="top" secondItem="G1p-2a-VYn" secondAttribute="top" constant="30" id="x1Z-93-jtc"/>
+                                </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="wRF-BG-56W">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="500.5"/>
@@ -39,7 +70,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="tableView" destination="wRF-BG-56W" id="Wye-C7-wvB"/>
+                        <outlet property="pauseButton" destination="x9r-FN-W9L" id="Aiq-KW-LXF"/>
+                        <outlet property="playStopButton" destination="ZdV-zD-A8H" id="LPK-Tq-h9e"/>
+                        <outlet property="recordingsTableView" destination="wRF-BG-56W" id="Wye-C7-wvB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="245669000" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -48,6 +81,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="mic.fill" catalog="system" width="108" height="128"/>
+        <image name="pause.fill" catalog="system" width="116" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
