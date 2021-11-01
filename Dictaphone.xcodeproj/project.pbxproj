@@ -15,6 +15,9 @@
 		191B9418272D841800B8C80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191B9416272D841800B8C80C /* LaunchScreen.storyboard */; };
 		191B9426272F341300B8C80C /* TableView + Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191B9424272F341300B8C80C /* TableView + Register.swift */; };
 		191B9427272F341300B8C80C /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191B9425272F341300B8C80C /* UIView+.swift */; };
+		191B9428272F360A00B8C80C /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191B9422272F338800B8C80C /* StoryboardInstantiable.swift */; };
+		191B942C27306CCC00B8C80C /* RecordingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191B942A27306CCC00B8C80C /* RecordingTVC.swift */; };
+		191B942D27306CCC00B8C80C /* RecordingTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 191B942B27306CCC00B8C80C /* RecordingTVC.xib */; };
 		2C50E3EBC64B9CB788FE89BE /* VoiceMemosConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F5F6F616AC80A7001DA09 /* VoiceMemosConfigurator.swift */; };
 		4836A373E91F2A54CA04FC11 /* VoiceMemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C715E146B84180B746AFD8A /* VoiceMemosViewController.swift */; };
 		4D84B7C1B3727EC402ECC98A /* VoiceMemosInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6639584921743C16311AD8 /* VoiceMemosInteractorInput.swift */; };
@@ -40,6 +43,8 @@
 		191B9422272F338800B8C80C /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
 		191B9424272F341300B8C80C /* TableView + Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableView + Register.swift"; sourceTree = "<group>"; };
 		191B9425272F341300B8C80C /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		191B942A27306CCC00B8C80C /* RecordingTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingTVC.swift; sourceTree = "<group>"; };
+		191B942B27306CCC00B8C80C /* RecordingTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordingTVC.xib; sourceTree = "<group>"; };
 		24322144F21926545FA7A681 /* Pods-Dictaphone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dictaphone.debug.xcconfig"; path = "Target Support Files/Pods-Dictaphone/Pods-Dictaphone.debug.xcconfig"; sourceTree = "<group>"; };
 		32D3929BBA6D285472AE6D9E /* VoiceMemosViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = VoiceMemosViewController.storyboard; sourceTree = "<group>"; };
 		654F5F6F616AC80A7001DA09 /* VoiceMemosConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceMemosConfigurator.swift; sourceTree = "<group>"; };
@@ -119,9 +124,19 @@
 			path = /Users/mangobay/Documents/swift/Dictaphone/Dictaphone/Dictaphone/Utilities;
 			sourceTree = "<absolute>";
 		};
+		191B942927306CB200B8C80C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				191B942A27306CCC00B8C80C /* RecordingTVC.swift */,
+				191B942B27306CCC00B8C80C /* RecordingTVC.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		29ECF561165A4D15292C9943 /* VoiceMemos */ = {
 			isa = PBXGroup;
 			children = (
+				191B942927306CB200B8C80C /* Cell */,
 				32D3929BBA6D285472AE6D9E /* VoiceMemosViewController.storyboard */,
 				BDC191021ACEF50DAD0EFB25 /* View */,
 				613881460A5207151ED04695 /* Presenter */,
@@ -256,6 +271,7 @@
 				191B9418272D841800B8C80C /* LaunchScreen.storyboard in Resources */,
 				191B9415272D841800B8C80C /* Assets.xcassets in Resources */,
 				77FCA547A50E66E7F3E0C998 /* VoiceMemosViewController.storyboard in Resources */,
+				191B942D27306CCC00B8C80C /* RecordingTVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,11 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				191B9428272F360A00B8C80C /* StoryboardInstantiable.swift in Sources */,
 				191B9426272F341300B8C80C /* TableView + Register.swift in Sources */,
 				191B940C272D841600B8C80C /* AppDelegate.swift in Sources */,
 				191B940E272D841600B8C80C /* SceneDelegate.swift in Sources */,
 				A04B5D70DECBEA5D481754CB /* VoiceMemosViewInput.swift in Sources */,
 				E91E4727E47A1EDB2694A995 /* VoiceMemosViewOutput.swift in Sources */,
+				191B942C27306CCC00B8C80C /* RecordingTVC.swift in Sources */,
 				4836A373E91F2A54CA04FC11 /* VoiceMemosViewController.swift in Sources */,
 				0981C18AE27B66C355683F01 /* VoiceMemosModuleInput.swift in Sources */,
 				9FF6E12E2CFE0CF5467A9C14 /* VoiceMemosPresenter.swift in Sources */,
@@ -454,7 +472,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,7 +501,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
